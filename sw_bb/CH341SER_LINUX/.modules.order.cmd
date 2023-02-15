@@ -1,0 +1,1 @@
+cmd_/home/sw/OrangePi_4_LTS/orangepi-build/sw_bb/CH341SER_LINUX/modules.order := {   echo /home/sw/OrangePi_4_LTS/orangepi-build/sw_bb/CH341SER_LINUX/ch34x.ko; :; } | awk '!x[$$0]++' - > /home/sw/OrangePi_4_LTS/orangepi-build/sw_bb/CH341SER_LINUX/modules.order

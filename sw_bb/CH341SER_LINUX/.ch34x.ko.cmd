@@ -1,0 +1,1 @@
+cmd_/home/sw/OrangePi_4_LTS/orangepi-build/sw_bb/CH341SER_LINUX/ch34x.ko := ld -r -m elf_x86_64 -z noexecstack --build-id=sha1  -T scripts/module.lds -o /home/sw/OrangePi_4_LTS/orangepi-build/sw_bb/CH341SER_LINUX/ch34x.ko /home/sw/OrangePi_4_LTS/orangepi-build/sw_bb/CH341SER_LINUX/ch34x.o /home/sw/OrangePi_4_LTS/orangepi-build/sw_bb/CH341SER_LINUX/ch34x.mod.o;  true
