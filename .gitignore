@@ -17,7 +17,7 @@ tags
 .tmp
 #kernel
 output
-u-boot
+#u-boot
 toolchains
 userpatches
 

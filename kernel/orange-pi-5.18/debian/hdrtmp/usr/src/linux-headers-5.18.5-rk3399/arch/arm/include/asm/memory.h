@@ -26,6 +26,11 @@
  * KERNEL_OFFSET: the virtual address of the start of the kernel image.
  *   we may further offset this with TEXT_OFFSET in practice.
  */
+/* sw[]20230216  */
+#ifndef CONFIG_PAGE_OFFSET
+#define CONFIG_PAGE_OFFSET=0x80000000
+#endif
+
 #define PAGE_OFFSET		UL(CONFIG_PAGE_OFFSET)
 #define KERNEL_OFFSET		(PAGE_OFFSET)
 
@@ -154,6 +159,11 @@ extern unsigned long vectors_base;
  * have CONFIG_ARM_PATCH_PHYS_VIRT. Assembly code must always use
  * PLAT_PHYS_OFFSET and not PHYS_OFFSET.
  */
+/* sw[]20230216  */
+
+
+
+
 #define PLAT_PHYS_OFFSET	UL(CONFIG_PHYS_OFFSET)
 
 #ifndef __ASSEMBLY__
@@ -279,6 +289,7 @@ static inline unsigned long __phys_to_virt(phys_addr_t x)
 static inline phys_addr_t __virt_to_phys_nodebug(unsigned long x)
 {
 	return (phys_addr_t)x - PAGE_OFFSET + PHYS_OFFSET;
+
 }
 
 static inline unsigned long __phys_to_virt(phys_addr_t x)

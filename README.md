@@ -18,15 +18,19 @@ Soc | Boards |
 
 
 ##sw
-orange-pi-5.18 RK3399 系列开发板 next 分支使用
-orangepi4-lts
-编译 RK3399 Linux 内核源码使用的交叉编译工具链为
-linux5.18
-gcc-arm-9.2-2019.12-x86_64-aarch64-none-linux-gnu
-编译 RK3399 u-boot 源码使用的交叉编译工具链为
-v2020.10
-gcc-arm-9.2-2019.12-x86_64-aarch64-none-linux-gnu
-
+-orange-pi-5.18 RK3399 系列开发板 next 分支使用
+-orangepi4-lts
+-编译 RK3399 Linux 内核源码使用的交叉编译工具链为
+-linux5.18
+-gcc-arm-9.2-2019.12-x86_64-aarch64-none-linux-gnu
+-编译 RK3399 u-boot 源码使用的交叉编译工具链为
+-v2020.10
+-gcc-arm-9.2-2019.12-x86_64-aarch64-none-linux-gnu
+-RK3399 系列开发板当前使用的 u-boot 和 linux 内核版本如下所示
+-分支 u-boot 版本 linux 内核版本
+-legacy u-boot 2020.10 linux4.4
+-current u-boot 2020.10 linux5.10
+-next u-boot 2020.10 linux5.18
 
 
 
