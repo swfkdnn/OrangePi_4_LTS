@@ -1,0 +1,38 @@
+Format: 1.8
+Date: Thu, 16 Feb 2023 09:55:53 +0800
+Source: linux-5.18.5-rk3399
+Binary: linux-dtb-next-rk3399 linux-headers-next-rk3399 linux-image-next-rk3399 linux-libc-dev
+Built-For-Profiles: noudeb
+Architecture: arm64
+Version: 3.0.8
+Distribution: jammy
+Urgency: low
+Maintainer: Orange Pi <leeboby@aliyun.com>
+Changed-By: Orange Pi <leeboby@aliyun.com>
+Description:
+ linux-dtb-next-rk3399 - Armbian Linux DTB, version 5.18.5-rk3399 next
+ linux-headers-next-rk3399 - Linux kernel headers for 5.18.5-rk3399 on arm64 next
+ linux-image-next-rk3399 - Linux kernel, armbian version 5.18.5-rk3399 next
+ linux-libc-dev - Armbian Linux support headers for userspace development
+Changes:
+ linux-5.18.5-rk3399 (3.0.8) jammy; urgency=low
+ .
+   * Armbian built Linux kernel. next
+Checksums-Sha1:
+ 54c2bb557db3f1931a69b6d56889627d1d940c37 6699 linux-5.18.5-rk3399_3.0.8_arm64.buildinfo
+ b92f3a7a6762616bd5630e1109fe7a44d3d27efb 610756 linux-dtb-next-rk3399_3.0.8_arm64.deb
+ 41ba1693ed0a1af165050da1d7f054bb4684d748 12183724 linux-headers-next-rk3399_3.0.8_arm64.deb
+ f537a1102c761e60447b7ff6f18905d161a267ce 45011776 linux-image-next-rk3399_3.0.8_arm64.deb
+ affc309bce9bab06e7ec3565dcfe4fbc99313aa3 1217880 linux-libc-dev_3.0.8_arm64.deb
+Checksums-Sha256:
+ 77ccdb5ed90ba6ba38a0a8c260447c4bd934493f20a5c04d75335d2b5ad3c641 6699 linux-5.18.5-rk3399_3.0.8_arm64.buildinfo
+ c9ed4514e7233723918bf5f3ed9b1772f696fe30f17c5c7f793d319e23796c49 610756 linux-dtb-next-rk3399_3.0.8_arm64.deb
+ c36fdd68756b572a3de6ca6fa3bb7b25cbafc4fa8b72027910a23770ac10ecb4 12183724 linux-headers-next-rk3399_3.0.8_arm64.deb
+ df3f554312f32006c3173ccf3a36a091ede673235d3ec12f4eaac313b3d5fd0d 45011776 linux-image-next-rk3399_3.0.8_arm64.deb
+ 6baa0f7fa71caec9ffcd6a5e414448bd5da7d9cfedfed28ead231a2904ccf9fc 1217880 linux-libc-dev_3.0.8_arm64.deb
+Files:
+ 42a3066016fe43ab12cefa11003ee3b5 6699 kernel optional linux-5.18.5-rk3399_3.0.8_arm64.buildinfo
+ ce150f748276bafc9a31e0146b09d96d 610756 kernel optional linux-dtb-next-rk3399_3.0.8_arm64.deb
+ fd1aa6b6dcd53c5572a8c7cbf4dcaf89 12183724 devel optional linux-headers-next-rk3399_3.0.8_arm64.deb
+ e0ac93380298e44325a2d0dce852db7a 45011776 kernel optional linux-image-next-rk3399_3.0.8_arm64.deb
+ 1398f63155e473ab655d874f62c45402 1217880 devel optional linux-libc-dev_3.0.8_arm64.deb

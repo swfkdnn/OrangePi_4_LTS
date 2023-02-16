@@ -13,9 +13,9 @@
 *.bak
 *.swp
 *.tar.gz
-
+tags
 .tmp
-kernel
+#kernel
 output
 u-boot
 toolchains
