@@ -1,0 +1,12 @@
+Package: linux-dtb-next-rk3399
+Source: linux-5.18.5-rk3399
+Version: 3.0.8
+Architecture: arm64
+Maintainer: Orange Pi <leeboby@aliyun.com>
+Installed-Size: 16258
+Provides: armbian-next, linux-dtb, linux-dtb-armbian
+Section: kernel
+Priority: optional
+Homepage: https://www.kernel.org/
+Description: Armbian Linux DTB, version 5.18.5-rk3399 next
+ This package contains device blobs from the Linux kernel, version 5.18.5-rk3399

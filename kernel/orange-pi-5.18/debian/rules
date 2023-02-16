@@ -1,0 +1,15 @@
+#!/usr/bin/make -f
+
+srctree ?= .
+
+build:
+	$(MAKE) KERNELRELEASE=5.18.5-rk3399 ARCH=arm64 	KBUILD_BUILD_VERSION=3.0.8 -f $(srctree)/Makefile
+
+binary-arch:
+	$(MAKE) KERNELRELEASE=5.18.5-rk3399 ARCH=arm64 	KBUILD_BUILD_VERSION=3.0.8 -f $(srctree)/Makefile intdeb-pkg
+
+clean:
+	rm -rf debian/*tmp debian/files
+	$(MAKE) clean
+
+binary: binary-arch

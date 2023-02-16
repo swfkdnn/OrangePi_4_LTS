@@ -1,0 +1,5 @@
+linux-5.18.5-rk3399 (3.0.8) jammy; urgency=low
+
+  * Armbian built Linux kernel. next
+
+ -- Orange Pi <leeboby@aliyun.com>  Thu, 16 Feb 2023 09:55:53 +0800

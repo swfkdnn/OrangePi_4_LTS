@@ -1,0 +1,13 @@
+Package: linux-image-next-rk3399
+Source: linux-5.18.5-rk3399
+Version: 3.0.8
+Architecture: arm64
+Maintainer: Orange Pi <leeboby@aliyun.com>
+Installed-Size: 69787
+Provides: armbian-next, linux-image, linux-image-armbian
+Section: kernel
+Priority: optional
+Homepage: https://www.kernel.org/
+Description: Linux kernel, armbian version 5.18.5-rk3399 next
+ This package contains the Linux kernel, modules and corresponding other
+ files, version: 5.18.5-rk3399.

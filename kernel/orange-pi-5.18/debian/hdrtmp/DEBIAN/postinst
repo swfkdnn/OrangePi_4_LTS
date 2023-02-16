@@ -1,0 +1,8 @@
+cd /usr/src/linux-headers-5.18.5-rk3399
+echo "Compiling headers - please wait ..."
+NCPU=$(grep -c 'processor' /proc/cpuinfo)
+find -type f -exec touch {} +
+yes "" | make oldconfig >/dev/null
+make -j$NCPU -s scripts >/dev/null
+make -j$NCPU -s M=scripts/mod/ >/dev/null
+exit 0

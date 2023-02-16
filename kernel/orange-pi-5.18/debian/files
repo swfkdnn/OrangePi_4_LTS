@@ -1,0 +1,5 @@
+linux-5.18.5-rk3399_3.0.8_arm64.buildinfo kernel optional
+linux-dtb-next-rk3399_3.0.8_arm64.deb kernel optional
+linux-headers-next-rk3399_3.0.8_arm64.deb devel optional
+linux-image-next-rk3399_3.0.8_arm64.deb kernel optional
+linux-libc-dev_3.0.8_arm64.deb devel optional

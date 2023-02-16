@@ -1,0 +1,15 @@
+Package: linux-headers-next-rk3399
+Source: linux-5.18.5-rk3399
+Version: 3.0.8
+Architecture: arm64
+Maintainer: Orange Pi <leeboby@aliyun.com>
+Installed-Size: 77428
+Depends: make, gcc, libc6-dev, bison, flex, libssl-dev
+Provides: armbian-next, linux-headers, linux-headers-armbian
+Section: devel
+Priority: optional
+Homepage: https://www.kernel.org/
+Description: Linux kernel headers for 5.18.5-rk3399 on arm64 next
+ This package provides kernel header files for 5.18.5-rk3399 on arm64
+ .
+ This is useful for people who need to build external modules
